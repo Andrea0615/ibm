@@ -173,3 +173,27 @@
   - Le preguntamos si debíamos definir el tamaño del arreglo, nos dice que sí, ya que el arreglo es una estructura de tamaño. 
   - Se le preguntó cómo integrar la imagen del diagrama de flujo el pseudocódigo, y el nos establece la ruta 
   - Le pedimos que nos ayudará con los comentarios. 
+
+  *bitacora personal*
+
+  Sesión 1: Al principio fue un poco difícil organizarnos porque éramos personas de diferentes países. Aun así, todos tuvimos buena actitud y logramos hacer una reunión para hablar sobre el tema y cómo podríamos resolverlo. Al inicio nuestro problema era muy amplio, queríamos abarcar muchas cosas, pero con el tiempo entendimos que era mejor enfocarlo solo en el flujo de caja chica diaria y en la necesidad de contar con dinero para pagar a los proveedores. Esto nos ayudó a tener más claro lo que queríamos lograr con el proyecto. Usamos GitHub Copilot para entender mejor las instrucciones y para revisar si lo que íbamos haciendo estaba bien, poco a poco, con prueba y error, conseguimos que el menú interactivo en Python funcionara correctamente.
+
+  Sesión 2: Nos concentramos en completar el documento de la documentación. Lo que más tiempo nos tomó fue hacer el pseudocódigo de la solución. Lo fuimos construyendo paso a paso, explicando cada parte y viendo cómo funcionaba en la consola de Visual Studio.
+    Definimos tres tareas principales para el sistema:
+        -Calcular el total de ventas (diario, mensual y general).
+        -Mostrar el total según el medio de pago.
+        -Hacer una lista con los productos más vendidos. 
+  Durante esta parte usamos mucho Copilot para resolver dudas. Nos enseñó cómo recorrer los archivos CSV, cómo poner bien las rutas y nos ayudó con la parte del cálculo de totales. También nos recomendó usar arreglos para ordenar los productos más vendidos y nos explicó cómo hacer el ordenamiento de burbuja.
+  Algunas sugerencias no las tomamos, como cuando nos reescribió los bucles con otra estructura. Preferimos dejar los nuestros porque ya entendíamos bien cómo funcionaban.
+
+  Sesión 3: En esta sesión hicimos el diagrama de flujo basado en el pseudocódigo de la solución. Esto nos ayudó a entender mejor la lógica del programa y ver todo el proceso paso a paso.También organizamos las carpetas del proyecto para que todos tuviéramos los mismos nombres y rutas, asegurando que el código de Python funcionara correctamente en todas las computadoras.
+
+  Sesión 4: Conectamos el diagrama en formato PNG dentro de Visual Studio y ajustamos algunos detalles del menú en Python para que se viera mejor y fuera más fácil de usar. Agregamos las sugerencias de Copilot que consideramos útiles y dejamos el proyecto listo para la primera entrega. En esta parte ya todo el equipo entendía bien el funcionamiento del programa.
+
+  Sesión 5: Cuando recibimos las observaciones del profesor, nos dimos cuenta de que nos habíamos adelantado un poco. Estábamos trabajando en el pseudocódigo de la solución general cuando todavía teníamos que centrarnos en el pseudocódigo del menú principal. Decidimos guardar la parte avanzada para después y enfocarnos ahora en el pseudocódigo del menú, junto con su diagrama de flujo. También agregamos una opción en el menú para mostrar el pseudocódigo directamente desde el programa y una sección con los nombres del grupo para hacerlo más completo.
+
+  Sesión 6: En esta sesión mejoramos la definición del tema, la problemática y la solución. Cambiamos el enfoque para que no se tratara solo del efectivo, sino del flujo de caja diaria incluyendo todos los medios de pago: efectivo, transferencia, tarjeta y QR. Esto hizo que la idea fuera más realista. Actualizamos el código de Python y creamos un nuevo diagrama de flujo con la estructura del menú interactivo. También agregamos cuántos registros tenía cada tabla de la base de datos para que todo quedara más claro.
+
+  Sesión 7: Por último, desarrollamos el pseudocódigo del menú, que fue la parte central del proyecto. Este pseudocódigo muestra cómo el programa permite al usuario elegir una opción del menú, leer la sección correspondiente del archivo de documentación y decidir si quiere volver al menú o salir. Con Copilot recibimos varias sugerencias. Nos ayudó a conectar el programa con el archivo de documentación, a crear la estructura que permite acceder a cada ítem del menú por número y a corregir errores de ruta cuando el archivo no se encontraba. También revisó la sintaxis general del código. Otras ideas no las usamos, como la integración de Git con Visual Studio o la lógica de calcular si se podía pagar a los proveedores, ya que no teníamos esos datos en la base de datos. Al final dejamos todo listo y ordenado. El proyecto quedó completo, con el pseudocódigo, los diagramas y la documentación final.
+
+  Conclusión Personal: Durante todo el proceso aprendí mucho sobre cómo planear y documentar un proyecto. Me gustó trabajar en equipo porque cada quien aportó ideas diferentes y juntos pudimos resolver los problemas. Copilot fue una buena herramienta para ayudarnos con la programación, aunque también aprendí que no siempre hay que aceptar todo lo que sugiere. Al final logramos un proyecto funcional y bien hecho que muestra el trabajo y el esfuerzo de todos.
